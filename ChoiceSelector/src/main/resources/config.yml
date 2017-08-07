@@ -1,0 +1,16 @@
+servers:
+  factions:
+    name: "&6Factions"
+    material: "WOOD_SWORD"
+    slot: 0
+    lore:
+    - "&2Join the Factions server"
+    - "&6<count> players online"
+  
+item: FEATHER
+item-name: "&3&lServer Selector"
+item-lore:
+- "&eChoose a server"
+- "&eto play on"
+menu-name: "&c&lServer Selector"
+menu-size: 9

@@ -1,0 +1,6 @@
+name: ChoiceFriendsBukkit
+main: com.barancode.choicefriends.bukkit.Main
+version: 1.4
+author: BaranCODE
+website: http://barancode.com
+softdepend: [ChoiceWorks, Essentials, Factions]

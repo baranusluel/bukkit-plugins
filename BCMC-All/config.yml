@@ -1,0 +1,7 @@
+# Normally TPA enabled also determines whether players
+# can use the particle cannons, but the is-mh is an exception
+# It overrides and force enables, even if TPA is disabled
+tpa-enabled: true
+senderformat: "&3You &c-> &3%receiver% &2>> &6%message%"
+receiverformat: "&3%sender% &c-> &3You &2>> &6%message%"
+is-mh: false

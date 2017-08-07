@@ -1,0 +1,17 @@
+name: Fly-and-Barrier
+main: com.barancode.flyandbarrier.Main
+version: 1.0
+author: BaranCODE
+website: http://barancode.com
+
+commands:
+   createregion:
+      permission: lobby.setregion
+      usage: /createregion <name>
+permissions:
+    lobby.setregion:
+        default: op
+    lobby.fly:
+        default: op
+    lobby.bypass:
+        default: op

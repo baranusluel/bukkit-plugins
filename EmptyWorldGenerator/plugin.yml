@@ -1,0 +1,6 @@
+name: EmptyWorldGenerator
+main: com.barancode.mc.emptyworldgenerator.MainClass
+version: 1.7
+load: STARTUP
+author: BaranCODE
+website: http://barancode.com

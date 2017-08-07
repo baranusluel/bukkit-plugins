@@ -1,0 +1,16 @@
+name: Durindir
+main: com.barancode.mc.durindir.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   durindir:
+      usage: /durindir
+   setspawndurindir:
+      usage: /setspawndurindir
+permissions:
+    kingdom.durindir:
+        default: op
+    kingdom.durindirsetspawn:
+        default: op

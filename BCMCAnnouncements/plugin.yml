@@ -1,0 +1,4 @@
+name: BungeeAnnouncer
+main : com.gmail.favorlock.bungeeannouncer.BungeeAnnouncer
+version: 0.1.6
+author: BaranCODE

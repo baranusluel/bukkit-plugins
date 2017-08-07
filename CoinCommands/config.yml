@@ -1,0 +1,20 @@
+commands:
+  whitelist:
+    message: "&3You whitelisted"
+    cost: 100
+
+messages:
+  permission: "&cYou do not have permission!"
+  invalid-command: "&cInvalid command!"
+  player: "&cMust be a player!"
+  enough-coins: "&cYou do not have enough coins!"
+  received-coins: "&3You have received <amount> coins!"
+  balance: "&3You have <amount> coins"
+  balance-others: "&3<player> has <amount> coins"
+  help: "&4You can put a message here, which is shown when the player does /dhd. You can create\n&3new lines like this"
+  
+mysql:
+  host: 'localhost'
+  database: 'survival'
+  username: 'root'
+  password: ''

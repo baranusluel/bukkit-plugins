@@ -1,0 +1,13 @@
+name: GlobalCommands
+main: com.barancode.mc.globalcommands.bukkit.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   globalsend:
+      usage: /globalsend <command>
+      permission: bcmc.globalsend
+permissions:
+   bcmc.globalsend:
+      default: false

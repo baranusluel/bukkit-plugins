@@ -1,0 +1,15 @@
+name: BCMC-Portals
+main: com.barancode.mc.portals.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   setportal:
+      permission: bcmc.setportal
+      usage: /setportal <name> <world> <x> <y> <z> [command]
+   warp:
+      usage: /warp <name>
+permissions:
+    bcmc.setportal:
+        default: op

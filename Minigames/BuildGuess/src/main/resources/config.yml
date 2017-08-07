@@ -1,0 +1,119 @@
+# Important: Please restart the server after you are finished configuring
+# with the commands (/setspawn, /setbuildspawn, /setpos) for the new values
+# to be updated.
+# Note: When you use the command /setpos, it sets the corner at where you
+# are looking at, not where you are standing.
+
+max-players: 20
+min-players: 4
+in-game: "&cThat server is in-game!"
+ending: "&cThat match is about to end!"
+spawn:
+  x: 0
+  y: 0
+  z: 0
+  pitch: 0
+  yaw: 0
+buildspawn:
+  x: 0
+  y: 0
+  z: 0
+  pitch: 0
+  yaw: 0
+frozen-time: 60
+match-time: 300
+finished-time: 10
+scoreboard:
+  time: "&6[&f<min>:<sec>&6]"
+  coins: "&aCoins:"
+  players: "&bPlayers:"
+  hints: "&cHints Left:"
+join: "&6<player> joined (<count>/<max>)"
+leave: "&6<player> left (<count>/<max>)"
+join-motd: "&eThe match will start when there are enough players"
+countdown:
+  start: "&4The match will start in <time> seconds"
+  soon: "&4The match starts in <time>"
+  not-enough: "&cThe match can't start with that many players"
+  end: "&4The match has started!"
+match-end: "&cThe match has ended!"
+build-region:
+  minx: 0
+  miny: 0
+  minz: 0
+  maxx: 0
+  maxy: 0
+  maxz: 0
+rollback-region:
+  minx: 0
+  miny: 0
+  minz: 0
+  maxx: 0
+  maxy: 0
+  maxz: 0
+topics:
+  "House": "Shelter"
+  "Volcano": "Eruption"
+  "Car": "Transportation"
+builder-talk: "&cThe builder isn't allowed to talk!"
+builder-selected: "&c<builder> is the builder"
+builder-outside: "&cYou can't build there!"
+topic: "&2Build a: <topic>"
+hint: "&2Here is a hint: <hint>"
+hub-item:
+  name: "&cHub"
+  lore:
+  - "Go back to"
+  - "the Hub server"
+  type: WOOD_DOOR
+  slot: 0
+hint-item:
+  name: "&aHint"
+  lore:
+  - "Get a hint"
+  - "about the build"
+  type: COMPASS
+  slot: 8
+guessed: "&e<player> found the word! It was <word>"
+coins: "&6You have gained <amount> coins"
+default-coins: 1
+command-blacklist:
+- gamemode
+- tell
+- msg
+- whisper
+- say
+- me
+- help
+- plugins
+command-blacklist-message: "&cYou can't do that command!"
+guesser-reward: 5
+builder-reward: 5
+motd:
+  waiting: "Waiting"
+  lobbying: "Lobbying"
+  ingame: "In Game"
+  finishing: "Finishing"
+book:
+  author: Author
+  title: Read This
+  description:
+    - This will give you
+    - information about
+    - the minigame
+  pages:
+    - '&aPlace your&&&binformation here'
+    - '&cHave fun!'
+  slot: 1
+afk-kick: "&cYou have been kicked for being AFK"
+afk-kick-broadcast: "&c<player> has been kicked for being AFK"
+gg-countdown: "&eYou will be moved to the hub in <time> seconds"
+match-countdown: "&eThe match will end in <time> seconds"
+winner: "&e<player> is the winner, with <coins> coins!"
+tips: 2
+tips-vip: 4
+chat-cooldown: 2
+chat-cooldown-message: "&cWait <time> seconds!"
+max-tips: "&cYou can't use any more hints!"
+tips-left: "&eYou can use <amount> more hints"
+afk-time: 30

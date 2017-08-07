@@ -1,0 +1,14 @@
+name: DenyPower
+main: com.barancode.denypower.Main
+version: 1.1
+author: BaranCODE
+website: http://barancode.com
+depend: [WorldGuard, MassiveCore, Factions, ChoiceWorks]
+
+commands:
+   reloaddenypower:
+      usage: /reloaddenypower
+      permission: denypower.reload
+permissions:
+   denypower.reload:
+      default: op

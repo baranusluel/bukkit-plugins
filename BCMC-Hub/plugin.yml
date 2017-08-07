@@ -1,0 +1,35 @@
+name: BCMC-Hub
+main: com.barancode.mc.hub.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+  apply:
+    usage: /apply
+  fly:
+    usage: /fly
+    permission: bcmc.donator.fly
+  hat:
+    usage: /hat material:data
+    permission: bcmc.donator.hat
+  review:
+    usage: /review
+    permission: bcmc.review
+  deleteapp:
+    usage: /deleteapp <player>
+    permission: bcmc.deleteapp
+  savebook:
+    usage: /savebook
+    permission: bcmc.savebook
+permissions:
+  bcmc.donator.fly:
+    default: op
+  bcmc.donator.hat:
+    default: op
+  bcmc.review:
+    default: op
+  bcmc.deleteapp:
+    default: false
+  bcmc.savebook:
+    default: false

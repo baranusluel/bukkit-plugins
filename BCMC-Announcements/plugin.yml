@@ -1,0 +1,9 @@
+name: BCMC-Announcements
+main: com.barancode.announcements.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+  announcementsreload:
+    usage: announcementsreload

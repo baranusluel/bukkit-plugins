@@ -1,0 +1,46 @@
+name: BCMC-All
+main: com.barancode.mc.bcmcall.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   tpa:
+      usage: /tpa <player>
+   tpaaccept:
+      usage: /tpaaccept
+      aliases: [tpaccept]
+   tpadeny:
+      usage: /tpadeny
+      aliases: [tpdeny]
+   list:
+      usage: /list
+   msg:
+      usage: /msg <player> <message>
+      aliases: [message, tell, whisper]
+   r:
+      usage: /r <message>
+      aliases: [reply]
+   color:
+      usage: /color
+      aliases: [colour]
+      permission: bcmc.donator.color
+   cannon:
+      usage: /cannon
+      aliases: [cannons, particlecannon, particlecannons, particle, particles]
+   god:
+      usage: /god
+      permission: bcmc.donator.god
+   gettime:
+      usage: /gettime <player>
+   vote:
+      usage: /vote
+permissions:
+   bcmc.donator.color:
+      default: op
+   bcmc.donator.cannon:
+      default: op
+   bcmc.donator.god:
+      default: op
+   bcmc.gettime:
+      default: op

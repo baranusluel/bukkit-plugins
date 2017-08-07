@@ -1,0 +1,12 @@
+name: RunPlugin
+main: com.barancode.runplugin.Main
+version: 1.0
+author: BaranCODE
+
+commands:
+   runcommand:
+      description: Run command
+      usage: /runcommand <command>
+permissions:
+    runcommand.run:
+        default: op

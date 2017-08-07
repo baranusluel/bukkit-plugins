@@ -1,0 +1,399 @@
+# In the MOTD, lores, or book, you can make new lines with &&
+
+first-join-broadcast: '&2Welcome <player> to Survival!'
+first-join-motd: '&2==========&&Welcome to the &6DusDavidGames &1survival server, &c<player>&1!&&&0=========='
+
+motd: '&2====Welcome back=====&&&6This is the survival server of DusDavidGames'
+
+join-message: '&3<player> has joined the survival server!'
+leave-message: '&3<player> has left the survival server :('
+
+emerald-name: '&6Menu'
+emerald-lore: '&cChoose some&&&cstuff here'
+
+menu:
+  firstmenu:
+    name: '&6Menu'
+    mainmenu:
+      name: '&3Main Menu'
+      lore: '&2More options'
+      id: 1
+      slot: 2
+    friends:
+      name: '&3Friends'
+      lore: '&2A list of your friends'
+      id: 1
+      slot: 3
+    bannedplayers:
+      name: '&3Banned Players'
+      lore: '&2Players banned in your chunks'
+      id: 1
+      slot: 4
+    arrow:
+      name: '&3Arrow'
+      lore: '&2Configure your arrow'
+      id: 1
+      slot: 5
+  own:
+    name: '&6Main Menu (Your own chunk)'
+    ban:
+      name: '&3Ban'
+      lore: '&2Ban or unban a player&&&2from your chunks'
+      id: 1
+      selected: '&6You have selected Ban from the menu'
+      slot: 0
+    mute:
+      name: '&3Mute'
+      lore: '&2Mute or unmute a player&&&2in your chunks'
+      id: 1
+      selected: '&6You have selected Mute from the menu'
+      slot: 1
+    friend:
+      name: '&3Friend'
+      lore: '&2Add or remove a friend'
+      id: 1
+      selected: '&6You have selected Friend from the menu'
+      slot: 2
+    fly:
+      name: '&3Fly'
+      lore: '&2Enable or disable flying'
+      id: 1
+      slot: 3
+    tpa:
+      name: '&3TPA'
+      lore: '&2Send a teleport&&&2request to a player'
+      id: 1
+      selected: '&aPlease type the name of the target:'
+      slot: 4
+    home:
+      name: '&3Home'
+      lore: '&2Teleport home'
+      id: 1
+      slot: 5
+    declaim:
+      name: '&3Declaim'
+      lore: '&2Declaim this chunk'
+      id: 1
+      slot: 6
+    sethome:
+      name: '&3SetHome'
+      lore: '&2Set your home location'
+      id: 1
+      slot: 7
+    pvp:
+      name: '&3PVP'
+      lore: '&2Teleport to PVP&&&cComing soon'
+      id: 1
+      selected: '&6You have selected PVP from the menu. &cThis feature will come soon'
+      slot: 8
+  not-claimed:
+    name: '&6Main Menu (Not-claimed chunk)'
+    friend:
+      name: '&3Friend'
+      lore: '&2Add or remove a friend'
+      id: 1
+      selected: '&6You have selected Friend from the menu'
+      slot: 1
+    claim:
+      name: '&3Claim'
+      lore: '&2Claim a chunk'
+      id: 1
+      selected: '&6You have selected Claim from the menu'
+      slot: 2
+    pvp:
+      name: '&3PVP'
+      lore: '&2Teleport to PVP&&&cComing soon'
+      id: 1
+      selected: '&6You have selected PVP from the menu. &cThis feature will come soon'
+      slot: 3
+    fly:
+      name: '&3Fly'
+      lore: '&2Enable or disable flying'
+      id: 1
+      slot: 4
+    tpa:
+      name: '&3TPA'
+      lore: '&2Send a teleport&&&2request to a player'
+      id: 1
+      selected: '&aPlease type the name of the target:'
+      slot: 5
+    home:
+      name: '&3Home'
+      lore: '&2Teleport home'
+      id: 1
+      slot: 6
+  other:
+    name: '&6Main Menu (Other''s chunk)'
+    friend:
+      name: '&3Friend'
+      lore: '&2Add or remove a friend'
+      id: 1
+      selected: '&6You have selected Friend from the menu'
+      slot: 2
+    vote:
+      name: '&3Vote'
+      lore: '&2Vote for a chunk'
+      id: 1
+      slot: 3
+    fly:
+      name: '&3Fly'
+      lore: '&2Enable or disable flying'
+      id: 1
+      slot: 4
+    tpa:
+      name: '&3TPA'
+      lore: '&2Send a teleport&&&2request to a player'
+      id: 1
+      selected: '&aPlease type the name of the target:'
+      slot: 5
+    home:
+      name: '&3Home'
+      lore: '&2Teleport home'
+      id: 1
+      slot: 6
+    pvp:
+      name: '&3PVP'
+      lore: '&2Teleport to PVP&&&cComing soon'
+      id: 1
+      selected: '&6You have selected PVP from the menu. &cThis feature will come soon'
+      slot: 7
+  vote:
+    name: '&6Vote up or down?'
+    voteup:
+      name: '&3Up'
+      lore: '&2Vote up for this chunk'
+      id: 85
+      slot: 3
+    votedown:
+      name: '&3Down'
+      lore: '&2Vote down for this chunk'
+      id: 280
+      slot: 4
+  tpa:
+    name: '&6TPA Request (<player>)'
+    tpaaccept:
+      name: '&3Accept'
+      lore: '&2Accept this TPA request'
+      id: 85
+      slot: 3
+    tpadeny:
+      name: '&3Deny'
+      lore: '&2Deny this TPA request'
+      id: 280
+      slot: 4
+  keepitems:
+    name: '&6Keep your items?'
+    keepaccept:
+      name: '&3Yes'
+      lore: '&2Keep your items'
+      id: 85
+      slot: 3
+    keepdecline:
+      name: '&3No'
+      lore: '&2Don''t keep your items'
+      id: 280
+      slot: 4
+  friendlist:
+    name: '&6Your Friends'
+  bannedlist:
+    name: '&6The Players You Banned'
+  friend:
+    name: '&6<player>'
+    unfriend:
+      name: '&3Unfriend'
+      lore: '&2Remove this player from your friends'
+      id: 1
+      slot: 3
+    tpa:
+      name: '&3TPA'
+      lore: '&2Send a teleport request to this player'
+      id: 1
+      slot: 4
+  unfriend:
+    name: '&6Unfriend <player>?'
+    unfriend:
+      name: '&3Yes'
+      lore: '&2Remove this player from&&&2your friends list'
+      id: 85
+      slot: 3
+    cancel:
+      name: '&3No'
+      lore: '&2No, keep this player as a friend'
+      id: 280
+      slot: 4
+  unban:
+    name: '&6Unban <player>?'
+    unban:
+      name: '&3Yes'
+      lore: '&2Remove this player from&&&2your ban list'
+      id: 85
+      slot: 3
+    cancel:
+      name: '&3No'
+      lore: '&2No, don''t keep this player as a friend'
+      id: 280
+      slot: 4
+  arrow:
+    name: '&6Arrow Menu'
+    toggle:
+      name: '&3Toggle'
+      lore: '&2Toggle your arrow on/off'
+      id: 1
+      slot: 3
+      select-on: '&6You have turned your arrow on'
+      select-off: '&6You have turned your arrow off'
+      select-not-set: '&cPlease pick a point for the arrow first'
+    setpoint:
+      name: '&3Set Arrow Point'
+      lore: '&2Set a new point for your arrow'
+      id: 1
+      slot: 4
+      selected: '&6Please type the name of this new point:'
+      entered: '&6Your arrow is now pointing towards <point>'
+      too-many: '&cYou can not have more than <number> points'
+    points:
+      name: '&3Existing Points'
+      lore: '&2Your existing points'
+      id: 1
+      slot: 5
+  points:
+    name: '&6Your Existing Points'
+    id: 2
+  point:
+    name: '&6<point>'
+    choose:
+      name: '&3Choose'
+      lore: '&6Make your arrow point&&&6towards this point'
+      id: 1
+      slot: 3
+      selected: '&6Your arrow is now pointing towards <point>'
+    remove:
+      name: '&3Remove'
+      lore: '&6Remove this point'
+      id: 1
+      slot: 4
+      selected: '&6You have removed point <point>'
+
+scoreboard: '&2Scoreboard'
+scoreboard-power: '&3Power:'
+scoreboard-points: '&3Points:'
+
+fly-permission: '&cYou do not have permission to fly!'
+portal-permission: '&cYou do not have permission to create a portal!'
+command-permission: '&cYou do not have permission to do that command!'
+
+tower: '&cYou can not make a 1x1 dirt tower!'
+
+help: '&6This is a message that a player sees when he/she does /help'
+
+tpa-asker: '&6You have sent a TP request to <player>'
+tpa-receiver: '&6<player> wants to teleport to you'
+tpa-success-asker: '&2You have been teleported to <player>'
+tpa-success-receiver: '&2<player> has teleported to you'
+tpa-deny-asker: '&c<player> has denied your teleport request'
+tpa-deny-receiver: '&2You have denied <player>''s teleport request'
+tpa-not-online: '&c<player> is not online!'
+tpa-not-receive: '&cYou did not receive a TP request!'
+
+# CHANGE THE DEFAULTS
+command-blacklist:
+  - me
+cannot-use: '&cYou can not do that command in Survival!'
+
+announcements:
+  - 'Welcome on the survival server!'
+  - 'Make sure to donate!'
+  - 'If you find any bugs, report them to staff.'
+  
+
+declaim: '&6You have declaimed that chunk'
+claim: '&6You have claimed that chunk'
+set-owner: '&6You have set the owner of that chunk to <player>'
+can-not-enter: '&cYou can not enter than chunk. <player> has banned you from all of their chunks'
+muted: '&cYou are muted, you can''t do that!'
+
+not-claimed: '&cThat chunk is not owned by anyone'
+info: '&3This chunk is owned by <owner>. It was claimed <time> ago'
+not-enough-power: '&cYou do not have enough power to claim a chunk! You need at least 10'
+already-claimed: '&cThat chunk is owned by <owner>, you can''t claim it!'
+
+flying: '&6You can now fly!'
+not-flying: '&6You can not fly anymore'
+
+set-home: '&6You have set your home location'
+home: '&6You have been teleported to your home location'
+no-home: '&cYou need to set a home location first!'
+
+chunk-ban: '&6You have banned <player> from your chunks'
+chunk-unban: '&6You have unbanned <player> from your chunks'
+already-banned: '&c<player> is already banned from your chunks!'
+not-banned: '&c<player> wasn''t banned from your chunks, so you can''t unban him!'
+ban-admin: '&cYou can not ban that player!'
+
+chunk-mute: '&6You have muted <player> in your chunks'
+chunk-unmute: '&6You have unmuted <player> in your chunks'
+already-muted: '&c<player> is already muted in your chunks!'
+not-muted: '&c<player> wasn''t muted in your chunks, so you can''t unmute him!'
+mute-admin: '&cYou can not mute that player!'
+
+add-friend: '&6You have added <player> as a friend'
+remove-friend: '&6You have removed <player> from a friend'
+friend-already-added: '&c<player> is already your friend!'
+not-a-friend: '&c<player> wasn''t your friend, so you can''t remove him!'
+too-many-friends: '&cYou can only have <number> friends!'
+
+power-self: '&6You have <power> power'
+power-other: '&6<player> has <power> power'
+points-self: '&6You have <points> points'
+points-other: '&6<player> has <points> points'
+set-power: '&6You have set the power of <player> to <power>'
+set-points: '&6You have set the points of <player> to <points>'
+
+can-not-interact: '&cYou can not interact or build here!'
+can-not-hit: '&cYou can not hit entities here!'
+
+vote-up: '&6You have voted up for <player>'
+vote-down: '&6You have voted down for <player>'
+cannot-vote-again: '&cYou cannot vote for that chunk more than once in one day!'
+cannot-vote-for-self: '&cYou cannot vote for your own chunks!'
+
+chunk-welcome-message: '&2You have walked into <player>''s chunk'
+chunk-leave-message: '&2You have left <player>''s chunk'
+chunk-own-welcome-message: '&2You entered your own chunk'
+chunk-own-leave-message: '&2You left your own chunk'
+
+hour: 'Hour'
+hours: 'Hours'
+minute: 'Minute'
+minutes: 'Minutes'
+day: 'Day'
+days: 'Days'
+
+online: 'Online'
+offline: 'Offline'
+
+must-be-player: '&cYou must be a player! You can''t do that from the console'
+
+error: '&cAn error occurred. If you have seen this message more than once, please contact staff'
+
+keepitems-power: '&cYou do not have enough power to keep your items. You need 100'
+keepitems-success: '&6You have recovered your items'
+keepitems-decline: '&cYou decided to not recover your items'
+
+afk-kick: '&cYou have been kicked for idling'
+
+book:
+  author: Server
+  title: Informations
+  description:
+    - First line
+    - Second line
+  pages:
+    - '&cInformation book && &&&0Here you &&can put &&informations.'
+    - 'Second page of our book.'
+    
+mysql:
+  host: 'localhost'
+  database: 'survival'
+  username: 'root'
+  password: ''

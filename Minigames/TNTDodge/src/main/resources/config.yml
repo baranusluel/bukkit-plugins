@@ -1,0 +1,14 @@
+spawn:
+  x: 0
+  y: 67
+  z: 0
+killer-spawn:
+  x: 0
+  y: 82
+  z: 0
+first-join-spawn:
+  x: 0
+  y: 140
+  z: 0
+killer-floor: 80
+runner-floor: 65

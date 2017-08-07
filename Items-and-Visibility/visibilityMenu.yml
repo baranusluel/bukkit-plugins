@@ -1,0 +1,27 @@
+# For help on how to use the options below, see the sampleItem config
+
+menu:
+  name: "&6Visibility Menu"
+  
+info-item:
+  name: "&2This gives you information"
+  lore: "&4You can write a\n&4description here"
+  slot: 0
+  material: "WATER"
+exit-item:
+  name: "&6Exit"
+  lore: "&cClick this item to exit"
+  slot: 8
+  material: "WOOD_DOOR"
+show-item:
+  name: "&7Show players"
+  lore: "&1Click this to\n&1show players"
+  slot: 3
+  material: "LAVA"
+  selected: "&6You can now see players"
+hide-item:
+  name: "&7Hide players"
+  lore: "&1Click this to\n&1hide players"
+  slot: 5
+  material: "LAVA"
+  selected: "&6You can't see players"

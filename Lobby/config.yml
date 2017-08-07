@@ -1,0 +1,22 @@
+messagecount: 2
+messages:
+  '1':
+    message: '&6Welcome to the BCMC Network!'
+    time: 4
+  '2':
+    message: '&3We are changing lots of stuff, and adding many new games'
+    time: 7
+  '3':
+    message: '&2The voting problems are fixed. Vote now! &f/vote'
+    time: 5
+  '4':
+    message: '&aDon''t forget to support us by donating! &f/donate'
+    time: 5
+
+speedamplifier: 2
+enderpearlname: '&6Hide/Show Players'
+enderpearllore: '&2Click this to&&&2hide or show players'
+hide: '&1You can''t see other players!'
+show: '&1You can see other players!'
+menuname: '&aQuick Warp Menu'
+menulore: '&2You can choose a game&&&2to warp to, from here'

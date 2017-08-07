@@ -1,0 +1,6 @@
+grenades:
+  '1':
+    name: '&cGrenade'
+    item-id: 341
+    lore: '&cA lore'
+    type: 1

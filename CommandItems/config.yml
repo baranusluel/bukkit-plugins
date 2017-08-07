@@ -1,0 +1,5 @@
+# MyItems Config
+
+# If this is false, the commands are executed as if the player wrote them. If this
+# is true, the commands will be executed as console
+console-executor: false

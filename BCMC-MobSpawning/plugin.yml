@@ -1,0 +1,13 @@
+name: BCMC-MobSpawning
+main: com.barancode.mc.mobspawning.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   bcmckillall:
+      permission: bcmc.killall
+      usage: /bcmckillall
+permissions:
+    bcmc.killall:
+        default: false

@@ -1,0 +1,13 @@
+name: BCMC-Motd
+main: com.barancode.mc.motd.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   motdreload:
+      permission: bcmc.motdreload
+      usage: /motdreload
+permissions:
+    bcmc.motdreload:
+        default: false

@@ -1,0 +1,13 @@
+name: CommanderCraftSwords
+main: com.barancode.mc.commandercraft.swords.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   setsword:
+      usage: /setsword <name>
+      permission: commandercraftswords.set
+permissions:
+    commandercraftswords.set:
+        default: op

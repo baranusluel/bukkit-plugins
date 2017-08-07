@@ -1,0 +1,51 @@
+experia:
+  NAME: '&9Experia'
+  LORE: '&2Join the Experia server--&6<count> Players'
+  ID: '397:2'
+  SLOT: 1
+minigames:
+  NAME: '&2Minigames'
+  LORE: '&2Teleport to the minigames area'
+  ID: LAVA_BUCKET
+  SLOT: 2
+mh1:
+  NAME: '&3Mysterious House 1'
+  LORE: '&2Join the Mysterious House 1 server--&6<count> Players'
+  ID: 324
+  SLOT: 3
+mh2:
+  NAME: '&4Mysterious House 2'
+  LORE: '&2Join the Mysterious House 2 server--&6<count> Players'
+  ID: IRON_DOOR
+  SLOT: 4
+survival:
+  NAME: '&5Survival'
+  LORE: '&2Join the Survival server--&6<count> Players'
+  ID: 270
+  SLOT: 5
+factions:
+  NAME: '&6Factions'
+  LORE: '&2Join the Factions server--&6<count> Players'
+  ID: 268
+  SLOT: 6
+creative:
+  NAME: '&7Creative'
+  LORE: '&2Join the Creative server--&6<count> Players'
+  ID: DIAMOND_BLOCK
+  SLOT: 7
+  
+toggle:
+  NAME: '&aToggle On/Off'
+  LORE: '&2Turn punching on--&2or off'
+  ID: LEVER
+  SLOT: 2
+regular:
+  NAME: '&bRegular Punch'
+  LORE: '&2Use the regular punch'
+  ID: WOOD_SWORD
+  SLOT: 5
+super:
+  NAME: '&cSuper-Punch'
+  LORE: '&2Use the super-punch'
+  ID: DIAMOND_SWORD
+  SLOT: 6

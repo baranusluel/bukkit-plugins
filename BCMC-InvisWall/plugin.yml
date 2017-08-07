@@ -1,0 +1,13 @@
+name: BCMC-InvisWall
+main: com.barancode.mc.inviswall.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   setwall:
+      permission: bcmc.setwall
+      usage: /setwall <name>
+permissions:
+    bcmc.setwall:
+        default: op

@@ -1,0 +1,13 @@
+world-spawn:
+  x: 0
+  y: 100
+  z: 0
+
+strings:
+  prefix: '&c[&6Bloodlines&c]&r '
+
+items:
+  classselector:
+    material: STONE
+    name: '&6Choose your class'
+    lore: '&3Choose a class--&3from here'

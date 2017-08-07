@@ -1,0 +1,3 @@
+nopermission: '&4You do not have permission!'
+beforeteleport: '&6You will be teleported in 10 seconds'
+onteleport: '&6You were teleported'

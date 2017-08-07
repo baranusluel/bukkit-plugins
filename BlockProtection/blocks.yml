@@ -1,0 +1,7 @@
+# Make sure you use the material names that are listed here:
+# http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html
+
+default: 20
+DIAMOND_BLOCK: 40
+OBSIDIAN: 50
+DRAGON_EGG: 600

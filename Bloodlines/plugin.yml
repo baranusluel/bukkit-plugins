@@ -1,0 +1,12 @@
+name: Bloodlines
+main: com.barancode.mc.bloodlines.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   setspawn:
+      permission: bloodlines.admin
+permissions:
+    bloodlines.admin:
+        default: op

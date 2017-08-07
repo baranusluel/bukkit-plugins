@@ -1,0 +1,154 @@
+# Experia Plugin Config
+# Notes:
+# - Make the commands in the command-blacklist all lowercase
+# - To use an apostrophe ( ' ) inside one of the messages, type two apostrophes ( '' )
+
+command-blacklist:
+  - gamemode
+  - give
+cannot-use: '&cYou can not do that command in the experia game world!'
+
+lobby-command-blacklist:
+  - tpa
+  - tpaaccept
+  - tpaccept
+  - tpdeny
+lobby-cannot-use: '&cYou can not do that command in the experia lobby world!'
+
+messages:
+  nopermission: '&cJe hebt hier geen permissie voor'
+  kitnopermission: '&cJe hebt deze kit nog niet gekocht!'
+  kitdoesntexist: '&cDeze kit bestaat niet'
+  kit: '&cJe krijgt de <kitname> &ckit als je spawnt!'
+  join-game: '&6Good luck...'
+  invalid-spawn-number: '&cA spawn with that ID does not exist'
+  set-spawnpoint: '&3You have set an experia spawnpoint (#<id>)'
+  set-respawnpoint: '&3You have set the respawn location'
+  cannot-hit: '&cYou can not hit <player>, because that player started playing a few seconds ago'
+  build-spawn: '&cYou can not build there, you are too close to a spawn location!'
+
+team-messages:
+  cannot-create: '&cYou can not create a team, because you''re already in one!'
+  created: '&6You have created a team called &8''&3<team>&8'''
+  name-used: '&cA team with that name already exists!'
+  invite: '&6You have invited <player> to your team'
+  invited: '&6<inviter> has invited you to the team <team>. Do /experia team join <team>, to join'
+  cannot-invite-already-in-a-team: '&cYou can not invite <player> to your team, because that player is already in another team'
+  cannot-invite-no-team: '&cYou do not have a team, so you can not invite someone!'
+  cannot-invite-not-exist: '&cYou can not invite <player>, because a player by that name hasn''t played on this server before. Make sure you spelled the name correctly.'
+  cannot-join-not-exist: '&cA team called <team> does not exist!'
+  cannot-join-already-in-a-team: '&cYou can not join team <team>, because you are already in a team!'
+  cannot-join-not-invited: '&cYou were not invited to this team!'
+  joined: '&6You have joined team <team>'
+  joined-broadcast: '&6<player> has joined this team!'
+  cannot-kick-no-team: '&cYou do not have a team, so you can not kick someone!'
+  cannot-kick-not-member: '&c<player> is not a member of your team, so you can''t kick that player!'
+  kick: '&6You have kicked <player> from the team'
+  kicked: '&6You have been kicked from the team by <player>!'
+  not-leader: '&cYou can not do that, because you are not the leader of the team!'
+  cannot-kick-yourself: '&cYou can not kick yourself, the leader, from the team! You can disband it if you want'
+  disband: '&6You have disbanded your team!'
+  disband-broadcast: '&6The team has been disbanded!'
+  cannot-disband-no-team: '&cYou can not disband a team, because you''re not in one'
+  cannot-leave: '&cYou can not leave your team, you are the leader! You can disband it if you want'
+  leave: '&6You have left the team!'
+  leave-broadcast: '&6<player> has left the team!'
+  cannot-leave-no-team: '&cYou can not leave a team, because you''re not in one'
+  list:
+    title: '&3Experia Team List'
+    template: '- &4<player>'
+  cannot-list-no-team: '&cYou can not the list the online players on your team, because you are not in one!'
+  list-empty: '&cNo members of the team are online at the moment'
+  cannot-hit: '&cYou can not hit a person that is on the same team as you!'
+
+combat-messages:
+  logging-out: '&6You will be logged out in 10 seconds. Do not move'
+  log-out-cancel: '&cYou couldn''t log out, because you moved'
+  countdown: '&3<seconds> seconds left'
+  kick-message: '&4You have been logged out'
+  enter-combat: '&2You have entered combat with <player>'
+  stop-combat: '&2You have stopped combat'
+  do-not-spam: '&cDo not spam the log out option!'
+
+kit-menu-name: '&cKit Selector'
+
+experia-command: '&6You have done the /experia command. &&&3This is a message you get when you do that. &&&4It is for testing purposes.'
+
+scoreboard:
+  name: '&6Scoreboard'
+  zombie-kills: '&cZombie Kills'
+  player-kills: '&cPlayer Kills'
+  deaths: '&cDeaths'
+
+loot:
+  - '&3Stone, 1'
+  - '&cGrass, 2'
+  - '&6Special Sword, 268, 16 5 & 17 5'
+  - '&6Orange Colored Wool, 35:1'
+min-loot:
+  single: 2
+  double: 4
+max-loot:
+  single: 8
+  double: 16
+
+kitnames:
+  - Standaard
+kits:
+  Standaard:
+    iconid: 268
+    iconlocation: 0
+    lore: '&3The default Experia Kit'
+    helmet: '&2HELMET, 298, 1'
+    chestplate: '&2CHESTPLATE, 299, 1, 7 3 & 1 4'
+    leggings: '&2LEGGINGS, 300, 1'
+    boots: '&2BOOTS, 301, 1'
+    items:
+      - '&6Special Sword, 268, 1, 16 5 & 17 5'
+      - '&6Awesome Pickaxe, 270, 1, 32 5'
+      - '&3Juicy Steak, 364, 4'
+      - '&3Stone, 1, 64'
+      - '&4Flame Thrower - &cThis is the lore. &&&aYou need to put lores after that &&&aline like in this example, 259, 1'
+      
+announcements:
+  - 'Welcome on the experia server!'
+  - 'Make sure to donate!'
+  - 'If you find any bugs, report them to staff.'
+  
+book:
+  slot: 8
+  author: Server
+  title: Informations
+  description:
+    - First line
+    - Second line
+  pages:
+    - '&cInformation book && &&&0Here you &&can put &&informations.'
+    - 'Second page of our book.'
+    
+giantspawnmessage: '&6Giants have spawned'
+giantdeathmessage: '&6A giant has been killed'
+giantminionmessage: '&3The giant''s minions, zombies, have spawned!'
+giants-count: 3
+giants:
+  '1':
+    x: 71
+    y: 100
+    z: -55
+  '2':
+    x: 0
+    y: 0
+    z: 0
+  '3':
+    x: 0
+    y: 0
+    z: 0
+    
+giant-drops:
+  loot:
+    - '&3Stone, 1'
+    - '&cGrass, 2'
+    - '&6Special Sword, 268, 16 5 & 17 5'
+    - '&6Orange Colored Wool, 35:1'
+  min-loot: 2
+  max-loot: 8

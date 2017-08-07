@@ -1,0 +1,37 @@
+name: WeaponsOfAncientGods
+main: com.barancode.mc.weaponsofancientgods.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   zeus:
+      description: Summon the lightning of Zeus
+      usage: /zeus
+      permission: ancientgods.zeus
+      permission-message: You don't have permission for <permission>
+   poseidon:
+      description: Summon the trident of Poseidon
+      usage: /poseidon
+      permission: ancientgods.poseidon
+      permission-message: You don't have permission for <permission>
+   hades:
+      description: Summon the staff of Hades
+      usage: /hades
+      permission: ancientgods.hades
+      permission-message: You don't have permission for <permission>
+   thor:
+      description: Summon the hammer of Thor
+      usage: /thor
+      permission: ancientgods.thor
+      permission-message: You don't have permission for <permission>
+   loki:
+      description: Summon the sceptre of Loki
+      usage: /loki
+      permission: ancientgods.loki
+      permission-message: You don't have permission for <permission>
+   odin:
+      description: Summon the spear of Odin
+      usage: /odin
+      permission: ancientgods.odin
+      permission-message: You don't have permission for <permission>

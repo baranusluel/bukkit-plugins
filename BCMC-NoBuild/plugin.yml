@@ -1,0 +1,13 @@
+name: BCMC-NoBuild
+main: com.barancode.mc.bcmcnobuild.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   buildbypass:
+      permission: bcmc.buildbypass
+      usage: /buildbypass
+permissions:
+    bcmc.buildbypass:
+        default: op

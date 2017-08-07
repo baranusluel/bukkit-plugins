@@ -1,0 +1,24 @@
+name: DDG-Bans
+main: com.barancode.mc.ddg.bans.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   kingdomban:
+      usage: /kingdomban <player> <reason> [ t:<Days:d> <Hours:h> <Minutes:m> ]
+      aliases: [kb]
+      permission: kingdom.kick.ban
+   kingdomkick:
+      usage: /kingdomkick <player> <reason>
+      aliases: [kk]
+      permission: kingdom.kick.ban
+   kingdomunban:
+      usage: /kingdomunban <player>
+      alias: [kub]
+      permission: kingdom.kick.ban
+permissions:
+    kingdom.kick.ban:
+        default: op
+    kingdom.portal:
+        default: op

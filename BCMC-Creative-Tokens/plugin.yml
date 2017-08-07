@@ -1,0 +1,9 @@
+name: CreativeTokens
+main: com.barancode.creative.tokens.Main
+version: 1.0
+author: BaranCODE
+website: http://barancode.com
+
+commands:
+   tokens:
+      aliases: [token, bal, balance, money, econ, economy]

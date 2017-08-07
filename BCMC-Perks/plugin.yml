@@ -1,0 +1,28 @@
+name: BCMC-Perks
+main: com.barancode.mc.perks.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   fly:
+      permission: bcmc.fly
+      usage: /fly
+   speed:
+      permission: bcmc.speed
+      usage: /speed <walk | fly> <speed>
+   feed:
+      permission: bcmc.feed
+      usage: /feed
+   repair:
+      permission: bcmc.repair
+      usage: /repair
+permissions:
+    bcmc.fly:
+        default: op
+    bcmc.speed:
+        default: op
+    bcmc.feed:
+        default: op
+    bcmc.repair:
+        default: op

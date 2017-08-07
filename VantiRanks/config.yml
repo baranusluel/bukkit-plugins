@@ -1,0 +1,125 @@
+ranks:
+- Member
+- Minister
+- Tycoon
+- Legend
+- Master
+- Elite
+- Moderator
+- SuperModerator
+- GameAdmin
+
+rank:
+  Member:
+    commands:
+    - manselect world
+    - manuadd <name> member
+    - manselect mining&nether
+    - manuadd <name> member
+    - manselect creative
+    - manuadd <name> cmember
+    - manselect parkourworld
+    - manuadd <name> pmember
+    price: 15000
+    message: '&6You are now a member'
+
+  Minister:
+    commands:
+    - manselect world
+    - manuadd <name> minister
+    - manselect mining&nether
+    - manuadd <name> minister
+    - manselect creative
+    - manuadd <name> cminister
+    - manselect parkourworld
+    - manuadd <name> pminister
+    price: 75000
+    message: ''
+
+  Tycoon:
+    commands:
+    - manselect world
+    - manuadd <name> tycoon
+    - manselect mining&nether
+    - manuadd <name> tycoon
+    - manselect creative
+    - manuadd <name> ctycoon
+    - manselect parkourworld
+    - manuadd <name> ptycoon
+    price: 250000
+    message: ''
+
+  Legend:
+    commands:
+    - manselect world
+    - manuadd <name> legend
+    - manselect mining&nether
+    - manuadd <name> legend
+    - manselect creative
+    - manuadd <name> clegend
+    - manselect parkourworld
+    - manuadd <name> plegend
+    price: 750000
+    message: ''
+
+  Master:
+    commands:
+    - manselect world
+    - manuadd <name> master
+    - manselect mining&nether
+    - manuadd <name> master
+    - manselect creative
+    - manuadd <name> cmaster
+    - manselect parkourworld
+    - manuadd <name> pmaster
+    price: 1000000
+    message: ''
+
+  Elite:
+    commands:
+    - manselect world
+    - manuadd <name> elite
+    - manselect mining&nether
+    - manuadd <name> elite
+    - manselect creative
+    - manuadd <name> celite
+    - manselect parkourworld
+    - manuadd <name> pelite
+    price: 5000000
+    message: ''
+
+  Moderator:
+    commands:
+    - manselect world
+    - manuadd <name> moderator
+    - manselect mining&nether
+    - manuadd <name> moderator
+    - manselect creative
+    - manuadd <name> cmoderator
+    - manselect parkourworld
+    - manuadd <name> pmoderator
+    message: ''
+
+  SuperModerator:
+    commands:
+    - manselect world
+    - manuadd <name> supermod
+    - manselect mining&nether
+    - manuadd <name> supermod
+    - manselect creative
+    - manuadd <name> csupermod
+    - manselect parkourworld
+    - manuadd <name> psupermod
+    message: ''
+
+  GameAdmin:
+    commands:
+    - manselect world
+    - manuadd <name> gameadmin
+    - manselect mining&nether
+    - manuadd <name> gameadmin
+    - manselect creative
+    - manuadd <name> cgameadmin
+    - manselect parkourworld
+    - manuadd <name> pgameadmin
+    message: ''

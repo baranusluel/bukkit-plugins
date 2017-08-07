@@ -1,0 +1,21 @@
+name: DDG-Guns
+main: com.barancode.mc.ddg.guns.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   setjoinspawn:
+      permission: guns.set
+   setlobby:
+      permission: guns.set
+   setspawnteam1:
+      permission: guns.set
+   setspawnteam2:
+      permission: guns.set
+   setobjective:
+      permission: guns.set
+      usage: /setobjective <#>
+permissions:
+    guns.set:
+        default: op

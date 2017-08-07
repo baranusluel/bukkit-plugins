@@ -1,0 +1,31 @@
+# All the messages that this plugin uses are configurable, here, so you can customize
+# and translate them however you want.
+
+kickedmessage: '&6You have been kicked by <kicker>. Reason: <reason>'
+kickermessage: '&6You have kicked <kicked>'
+kickbroadcast: '&6<kicker> has kicked <kicked>'
+
+permanent-bannedmessage: '&cYou have been banned by <banner>. Reason: <reason>'
+permanent-bannermessage: '&6You have banned <banned>'
+permanent-banbroadcast: '&6<banner> has banned <banned> because of <reason>'
+
+temp-bannedmessage: '&cYou have been banned by <banner> for <time>. Reason: <reason>'
+temp-bannermessage: '&6You have banned <banned> for <time>'
+temp-banbroadcast: '&6<banner> has banned <banned> for <time>'
+
+notonline: '&cThat player is not online!'
+
+portal-nopermission: '&cYou do not have permission to create a portal!'
+
+hour: 'Hour'
+hours: 'Hours'
+minute: 'Minute'
+minutes: 'Minutes'
+day: 'Day'
+days: 'Days'
+
+unban: '&6You have unbanned <banned>'
+unbanbroadcast: '&6<banner> has unbanned <banned>'
+cannotunban: '&cYou can not unban <banned>. Only <banner> can unban that player'
+
+players: {}

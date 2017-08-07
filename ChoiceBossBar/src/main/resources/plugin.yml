@@ -1,0 +1,14 @@
+name: ChoiceBossBar
+main: net.choicecraft.ChoiceBossBar.ChoiceBossBar
+version: 1.3
+author: BaranCODE
+website: http://barancode.com
+depend: [BarAPI]
+
+commands:
+   reloadbar:
+      usage: /reloadbar
+      permission: bar.reload
+permissions:
+   bar.reload:
+      default: op

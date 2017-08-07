@@ -1,0 +1,21 @@
+# For material types, use this list: http://jd.bukkit.org/dev/apidocs/org/bukkit/Material.html
+# For enchantment info, use this list: http://minecraft.gamepedia.com/Enchanting#Enchantments
+#   The format for kit items is this:
+#   "Display name, material type, amount, slot; enchantment name, enchantment level & enchantment name, enchantment level"
+#   The enchantment section after the semicolon (;) is optional.
+#   Separate different enchantments with the & sign (how many enchantments you place doesn't matter).
+#   The slot numbers start from 0.
+# For potion effect types, use this list: http://jd.bukkit.org/rb/apidocs/org/bukkit/potion/PotionEffectType.html
+#   The format for the effects in kits is this:
+#   "Effect name, amplitude"
+
+lobby-world: world
+game-world: game
+
+kits:
+  Soldier:
+	name: "&6Soldier"
+	items:
+	- "&3Sword, IRON_SWORD, 1, 0; 16, 5 & 19, 2"
+	effects:
+	- "speed, 1"

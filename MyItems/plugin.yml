@@ -1,0 +1,26 @@
+name: MyItems
+main: com.barancode.myitems.Main
+version: 2.0
+author: BaranCODE
+website: http://barancode.com
+
+commands:
+   myitems:
+      description: MyItems command
+      aliases: mi
+      usage: /mi
+permissions:
+    myitems.create:
+        default: op
+    myitems.setlore:
+        default: op
+    myitems.setcommand:
+        default: op
+    myitems.get:
+        default: op
+#    myitems.use.*:
+#        default: op
+    myitems.list:
+        default: op
+    myitems.delete:
+        default: op

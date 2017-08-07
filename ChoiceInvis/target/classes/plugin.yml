@@ -1,0 +1,12 @@
+name: ChoiceInvis
+main: main.java.com.barancode.choiceinvis.Main
+version: 1.0
+author: BaranCODE
+website: http://barancode.com
+
+commands:
+  invisreload:
+    permission: invis.reload
+permissions:
+  invis.reload:
+    default: op

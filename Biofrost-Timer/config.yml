@@ -1,0 +1,5 @@
+# Time in seconds
+time: 600
+time-format: "&6[&e<min>:<sec>&6]"
+players: "&3Players:"
+end-broadcast: "&cThe timer has ended!"

@@ -1,0 +1,9 @@
+name: SurvivalTokens
+main: com.barancode.survival.tokens.TokensMain
+version: 1.0
+author: BaranCODE
+website: http://barancode.com
+
+commands:
+   tokens:
+      aliases: [token, bal, balance, money, econ, economy]

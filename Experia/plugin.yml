@@ -1,0 +1,40 @@
+name: Experia
+main: com.barancode.mc.experia.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   experia:
+      description: Experia command
+      usage: /experia
+   kit:
+      description: Get a kit
+      usage: /kit
+   setbook:
+      description: Set the Experia book
+   myitems:
+      description: Experia items command
+      aliases: mi
+      usage: /mi
+   bcmckillall:
+      permission: bcmc.killall
+      usage: /bcmckillall
+permissions:
+    experia.spawn:
+        default: true
+    experia.setspawn:
+        default: op
+    experia.kit:
+        default: true
+    experia.kit.default:
+        default: true
+    experia.setworldspawn:
+        default: op
+    experia.setbook:
+        default: op
+    experia.broadcast:
+        default: op
+        commands:
+    bcmc.killall:
+        default: false

@@ -1,0 +1,1 @@
+mvn install:install-file -DgroupId=net.md-5 -DartifactId=bungeecord -Dpackaging=jar -Dversion=1.7-SNAPSHOT -Dfile=BungeeCord.jar -DgeneratePom=true

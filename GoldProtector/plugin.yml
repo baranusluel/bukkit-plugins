@@ -1,0 +1,86 @@
+name: GoldProtector
+main: com.barancode.mc.goldprotector.GoldProtector
+version: 1.3
+load: STARTUP
+depend: [Vault]
+author: BaranCODE
+
+commands:
+   random:
+      description: Gold Protector command
+      usage: /random
+      permission: goldprotector.random
+      permission-message: You don't have permission for <permission>
+   edit:
+      description: Gold Protector command
+      usage: /edit
+      permission: goldprotector.edit
+      permission-message: You don't have permission for <permission>
+   public:
+      description: Gold Protector command
+      usage: /public
+      permission: goldprotector.public
+      permission-message: You don't have permission for <permission>
+   team:
+      description: Gold Protector command
+      usage: /team
+      permission: goldprotector.team
+      permission-message: You don't have permission for <permission>
+   start:
+      description: Gold Protector command
+      usage: /start
+      permission: goldprotector.start
+      permission-message: You don't have permission for <permission>
+   home:
+      description: Gold Protector command
+      usage: /home
+      permission: goldprotector.home
+      permission-message: You don't have permission for <permission>
+   play:
+      description: Gold Protector command
+      usage: /play
+      permission: goldprotector.play
+      permission-message: You don't have permission for <permission>
+   collect:
+      description: Gold Protector command
+      usage: /collect
+      permission: goldprotector.collect
+      permission-message: You don't have permission for <permission>
+   setspawn:
+      description: Gold Protector command
+      usage: /setspawn
+      permission: goldprotector.setspawn
+      permission-message: You don't have permission for <permission>
+   join:
+      description: Gold Protector command
+      usage: /join <name>
+      permission: goldprotector.join
+      permission-message: You don't have permission for <permission>
+   vote:
+      description: Gold Protector command
+      usage: /vote <up | down>
+      permission: goldprotector.vote
+      permission-message: You don't have permission for <permission>
+permissions:
+    goldprotector.random:
+        default: true
+    goldprotector.edit:
+        default: true
+    goldprotector.public:
+        default: true
+    goldprotector.team:
+        default: true
+    goldprotector.start:
+        default: true
+    goldprotector.home:
+        default: true
+    goldprotector.play:
+        default: true
+    goldprotector.collect:
+        default: true
+    goldprotector.setspawn:
+        default: true
+    goldprotector.join:
+        default: true
+    goldprotector.vote:
+        default: true

@@ -1,0 +1,6 @@
+name: SkyWars
+main: com.barancode.mc.skywars.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+load: STARTUP

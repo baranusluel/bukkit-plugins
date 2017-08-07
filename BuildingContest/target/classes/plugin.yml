@@ -1,0 +1,32 @@
+name: BuildingContest
+main: com.barancode.contest.Main
+version: 1.5
+author: BaranCODE
+
+commands:
+   contest:
+      description: The commands for the building contest
+      usage: /contest
+      permission: contest.user
+      aliases: buildingcontest
+   review:
+      description: The judge commands for the building contest
+      usage: /review
+      permission: contest.review
+   contestadmin:
+      description: The admin commands for the building contest
+      usage: /contestadmin
+      permission: contest.admin
+permissions:
+    contest.user:
+        description: The commands for building contest
+        default: true
+    contest.review:
+        description: The judge commands for building contest
+        default: op
+    contest.admin:
+        description: The admin commands for building contest
+        default: op
+    contest.delete:
+        description: Delete a submission
+        default: op

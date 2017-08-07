@@ -1,0 +1,9 @@
+name: FactionsTokens
+main: com.barancode.factions.tokens.Main
+version: 1.0
+author: BaranCODE
+website: http://barancode.com
+
+commands:
+   tokens:
+      aliases: [token, bal, balance, money, econ, economy]

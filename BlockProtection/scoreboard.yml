@@ -1,0 +1,6 @@
+# Important:
+# The maximum length for text in scoreboards is 16 characters (minecraft limitation), including color codes
+
+title: "&6&lScoreboard"
+influence: "&3Influence"
+info: "&cSome text"

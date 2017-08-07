@@ -1,0 +1,28 @@
+wand-name: "&6Wand"
+wand-lore:
+- "&eThis can"
+- "&ecreate cool effects"
+earthwand-name: "&6Earth Wand"
+earthwand-lore:
+- "&eThis can do"
+- "&enature stuff"
+eyeoftime-name: "&6Eye of Time"
+eyeoftime-lore:
+- "&eThis can freeze"
+- "&eeverything"
+give-wand: "&6You have been given the wand"
+give-earthwand: "&6You have been given the earth wand"
+give-eyeoftime: "&6You have been given the eye of time"
+spell-changed: "&cYou have selected <spell>"
+must-bind: "&cYou must choose a spell by right-clicking, first"
+freeze-broadcast: "&3Everything has been frozen for 5 seconds, by <player>"
+spells:
+  5: "Jump"
+  4: "Launch"
+  3: "Damage"
+  2: "Explosion"
+  1: "Cloud"
+  freeze: "Freeze"
+  earthSpawnTree: "Tree"
+  earthBoneMeal: "Bone Meal"
+  earthDamage: "Nature Damage"

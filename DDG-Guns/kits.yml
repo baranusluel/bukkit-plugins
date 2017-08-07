@@ -1,0 +1,24 @@
+kits:
+  - default
+  
+default:
+  display-name: '&6Normal Kit'
+  lore: '&cA lore'
+  permission: ''
+  guns:
+    - '1'
+  grenades:
+    - '1'
+  helmet: '&2HELMET, 298, 1'
+  chestplate: '&2CHESTPLATE, 299, 1, 7 3 & 1 4'
+  leggings: '&2LEGGINGS, 300, 1'
+  boots: '&2BOOTS, 301, 1'
+  items:
+    - '&6Special Sword, 268, 1, 16 5 & 17 5'
+    - '&6Awesome Pickaxe, 270, 1, 32 5'
+    - '&3Juicy Steak, 364, 4'
+    - '&3Stone, 1, 64'
+  menu:
+    iconid: 268
+    iconlocation: 0
+    message: '&3You have gotten the normal kit'

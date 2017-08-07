@@ -1,0 +1,24 @@
+name: Kickstick
+main: com.barancode.mc.kickstick.Kickstick
+version: 1.4
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   kickstick:
+      description: Get the kicking stick
+      usage: /kickstick
+   banstick:
+      description: Get the banning stick
+      usage: /banstick
+permissions:
+    kickstick.get:
+        default: op
+    kickstick.getbanstick:
+        default: op
+    kickstick.use:
+        default: op
+    kickstick.usebanstick:
+        default: op
+    kickstick.reload:
+        default: op

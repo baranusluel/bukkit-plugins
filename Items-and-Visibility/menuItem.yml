@@ -1,0 +1,9 @@
+# Use the custom-menu option only for the menuItem (or whatever you rename it to) item
+# For help on how to use the options below, see the sampleItem config
+
+custom-menu: true
+item-name: "&4Visibility"
+item-lore: "&3Access the\n&3visibility menu"
+slot: 0
+material: "COMPASS"
+command: "me is using the menuItem item!"

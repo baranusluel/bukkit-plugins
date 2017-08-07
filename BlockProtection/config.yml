@@ -1,0 +1,21 @@
+# BlockProtection
+# made by BaranCODE
+# -----------------
+# Please read this part, as it contains information about the plugin.
+# Groups:
+#   - If a person has permission for more than one group, the smallest of them is selected.
+#   - If a person doesn't have permission for any group, the smallest group (group 1) is selected.
+#   - The smallest group is 1.
+#   - The biggest group is 50.
+#   - I do not recommend changing group permissions while the server is running. It may mess up things like
+#     the counter that is used to make sure no griefing happens, when less than 2 players of a group are online.
+# Scoreboard:
+#   - The maximum length for text in scoreboards is 16 characters (minecraft limitation), including color codes.
+# Explosions:
+#   - If TNT is triggered by something such as a redstone signal, it will not damage any blocks, because it isn't
+#     possible to get the player who did it.
+#   - TNT triggered by flint & steel is okay.
+#   - TNT triggered by other TNT explosions (chain reactions) are okay.
+# Pistons:
+#   - It's not possible to get the player that made a piston work, so instead, I use the player that was
+#     closest to the piston.

@@ -1,0 +1,20 @@
+name: CoinCommands
+main: com.barancode.mc.coincommands.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   dhd:
+      description: Coin commands plugin
+permissions:
+    coincommands.addcoins:
+        default: op
+    coincommands.setcoins:
+        default: op
+    coincommands.command:
+        default: true
+    coincommands.balance:
+        default: true
+    coincommands.balance.others:
+        default: op

@@ -1,0 +1,10 @@
+queue-timer: 30
+game-timer: 600
+game-running: '&cThere is a current game in progress'
+min-players:
+  attackers: 2
+  defenders: 2
+return-server: Hub
+objective-id: 35:14
+objective-destroyed-id: 35:15
+kit-permission: '&cYou do not have permission for that kit'

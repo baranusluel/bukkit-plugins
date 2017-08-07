@@ -1,0 +1,29 @@
+break-block: "&6You broke a <material> block, it cost you <cost> influence"
+break-block-error: "&cYou need <cost> influence to break a <material> block!"
+chest-break-error: "&cYou can't break a chest!"
+
+get-influence: "&3<player> has <amount> influence"
+set-influence: "&3<player> now has <amount> influence"
+
+afk-kick: "&cYou can't stay AFK!"
+
+override-on: "&6You have turned override mode on"
+override-off: "&6You have turned override mode off"
+
+no-members-online: "&cYou can't do that, because less than 2 players from that group are online!"
+
+tnt-destroy-blocks: "&6Your TNT broke some blocks, it cost you <cost> influence in total"
+tnt-destroy-blocks-error: "&cYour TNT wasn't able to break some blocks, because you needed <cost> more influence!"
+
+piston-move: "&6Your piston moved a <material> block, it cost you <cost> influence"
+piston-move-error: "&cYou need <cost> influence to move a <material> block with a piston!"
+chest-move-error: "&cYou can't move a chest with a piston!"
+
+piston-move-group: "&6Your piston moved <amount> blocks, it cost you <cost> influence in total"
+piston-move-group-error: "&cYour piston tried to move <amount> blocks, but couldn't because you need <cost> more influence!"
+
+chest-click: "&6You stole a <material>, it cost you <cost> influence"
+chest-click-error: "&cYou need <cost> influence to steal a <material>!"
+
+scoreboard-on: "&6You have turned your scoreboard back on"
+scoreboard-off: "&6You have turned your scoreboard off. To turn it back on, do /score again"

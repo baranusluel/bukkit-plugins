@@ -1,0 +1,9 @@
+name: BCMC-Building
+main: com.barancode.mc.bcmcbuilding.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+permissions:
+    bcmc.creative.buildatspawn:
+        default: false

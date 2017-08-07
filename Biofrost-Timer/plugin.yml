@@ -1,0 +1,18 @@
+name: Biofrost-Timer
+main: com.barancode.timer.Main
+version: 1.0
+author: BaranCODE
+website: http://barancode.com
+
+commands:
+  timer:
+    usage: /timer
+  start:
+    usage: /start
+    permission: timer.control
+  pause:
+    usage: /pause
+    permission: timer.control
+permissions:
+  timer.control:
+    default: op

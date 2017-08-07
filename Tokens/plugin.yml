@@ -1,0 +1,9 @@
+name: BCMCTokens
+main: com.barancode.mc.tokens.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+permissions:
+    token.sign.create:
+        default: op

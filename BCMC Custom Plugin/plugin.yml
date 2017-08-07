@@ -1,0 +1,28 @@
+name: BCMC-Custom
+main: com.barancode.mc.custom.Main
+version: 1.1
+author: BaranCODE
+website: http://mc.barancode.com
+softdepend: [Votifier]
+prefix: BCMC
+
+commands:
+   setcheckpoint:
+      description: Set the checkpoint of a player in Mysterious House
+      permission: bcmc.setcheckpoint
+   bcmcreload:
+      description: Reload BCMC plugin
+      permission: bcmc.reload
+   apply:
+      description: Get info about applying for mod
+   mh2:
+      description: Teleport to the Mysterious House 2
+   questlevel:
+      description: Go to the next level
+permissions:
+    bcmc.setcheckpoint:
+        default: op
+    bcmc.reload:
+        default: op
+    bcmc.checkmh2:
+        default: op

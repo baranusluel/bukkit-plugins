@@ -1,0 +1,1 @@
+mvn install:install-file -DgroupId=com.massivecraft -DartifactId=massivecore -Dpackaging=jar -Dversion=7.4.0 -Dfile=MassiveCore.jar -DgeneratePom=true

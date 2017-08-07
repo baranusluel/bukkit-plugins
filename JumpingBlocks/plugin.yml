@@ -1,0 +1,15 @@
+name: JumpingBlocks
+main: com.barancode.mc.jumpingblocks.Main
+version: 1.4
+author: [BaranCODE, m4dr1]
+website: http://mc.barancode.com
+
+commands:
+   jumpingblock:
+      description: Jumping block commands
+      usage: /jumpingblock
+permissions:
+    jumpingblock.create:
+        default: op
+    jumpingblock.delete:
+        default: op

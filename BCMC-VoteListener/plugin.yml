@@ -1,0 +1,6 @@
+name: BCMC-VoteListener
+main: com.barancode.mc.votelistener.Main
+version: 1.0
+author: BaranCODE
+website: http://barancode.com
+depend: [Votifier]

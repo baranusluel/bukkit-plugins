@@ -1,0 +1,12 @@
+name: BCMC-Worlds
+main: com.barancode.mc.worlds.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   bcmcworlds:
+      permission: bcmc.worlds
+permissions:
+    bcmc.worlds:
+        default: op

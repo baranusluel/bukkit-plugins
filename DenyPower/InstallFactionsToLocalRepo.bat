@@ -1,0 +1,1 @@
+mvn install:install-file -DgroupId=com.massivecraft -DartifactId=factions -Dpackaging=jar -Dversion=2.6.0 -Dfile=Factions.jar -DgeneratePom=true

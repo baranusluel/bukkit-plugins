@@ -1,0 +1,20 @@
+name: BCMC-MH
+main: com.barancode.mc.checkpoints.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   setcheckpoint:
+      description: Set the checkpoint of a player
+      permission: bcmc.setcheckpoint
+   bcmcreload:
+      description: Reload BCMC plugin
+      permission: bcmc.reload
+permissions:
+    bcmc.setcheckpoint:
+        default: op
+    bcmc.reload:
+        default: op
+    bcmc.dispenser:
+        default: false

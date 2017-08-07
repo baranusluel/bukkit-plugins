@@ -1,0 +1,16 @@
+# Gold Protector Configuration File
+
+percentOfJackpotOnWin: 10
+worldname: GoldProtector
+
+# I STRONGLY RECOMMEND YOU DON'T TOUCH ANYTHING AFTER THIS
+
+spawns:
+spawncount: 0
+historycount: 0
+key:
+goldblocks:
+teams:
+areas:
+players:
+scores:

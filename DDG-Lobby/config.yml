@@ -1,0 +1,5 @@
+# The number of xp per block
+xp: 10
+blocks: 1
+error: '&cYou do not have enough xp!'
+finished: '&cYou have run out of xp!'

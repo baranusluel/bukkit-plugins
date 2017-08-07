@@ -1,0 +1,27 @@
+name: BlockProtection
+main: com.barancode.blockprotection.Main
+version: 1.0
+author: BaranCODE
+website: http://barancode.com
+
+commands:
+  accept:
+    usage: /accept
+  getinfluence:
+    usage: /getinfluence <player>
+    permission: influence.getinfluence
+  setinfluence:
+    usage: /setinfluence <player> <amount (no more than 500)>
+    permission: influence.setinfluence
+  override:
+    usage: /override
+    permission: influence.override
+  score:
+    usage: /score
+permissions:
+    influence.override:
+        default: op
+    influence.getinfluence:
+        default: op
+    influence.setinfluence:
+        default: op

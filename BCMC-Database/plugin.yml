@@ -1,0 +1,7 @@
+name: BCMC-Database
+main: com.barancode.mc.db.Main
+version: 1.0
+author: BaranCODE
+website: http://barancode.com
+load: STARTUP
+loadbefore: [DDG-Survival, LavaSlap, SkyWars, Spleef, TNTRun, TNTDodge, GlobalCommands, FactionsTokens, BCMC-All, CreativeTokens, SurvivalTokens]

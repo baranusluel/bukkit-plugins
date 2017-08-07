@@ -1,0 +1,21 @@
+name: BCMCWarnings
+main: com.barancode.mc.bcmcwarnings.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   warn:
+      description: Warn someone
+      usage: /warn <player> <reason>
+   warnings:
+      description: Look at a player's warnings
+   clearwarnings:
+      description: Clear a player's warnings
+permissions:
+    warnings.others:
+        default: op
+    warnings.give:
+        default: op
+    warnings.clear:
+        default: false

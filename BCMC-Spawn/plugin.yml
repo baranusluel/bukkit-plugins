@@ -1,0 +1,16 @@
+name: BCMC-Spawn
+main: com.barancode.mc.spawn.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   setserverspawn:
+      permission: bcmc.setserverspawn
+      usage: /setserverspawn
+   spawn:
+      usage: /spawn
+      description: Teleport to server spawn
+permissions:
+    bcmc.setserverspawn:
+        default: op

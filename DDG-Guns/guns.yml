@@ -1,0 +1,10 @@
+guns:
+  '1':
+    name: '&cHand-Rifle &6<ammo>'
+    item-id: 280
+    ammo: 50
+    projectile: 1
+    fire-type: 1
+    reload-time: 3
+    ammo-per-reload: 10
+    lore: '&cA lore'

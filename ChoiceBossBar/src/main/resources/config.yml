@@ -1,0 +1,19 @@
+# The format for the announcements is the following:
+# 
+# announcements:
+#   'Announcement message with no formatting': 'The formatting codes for the message'
+# 
+# Note: You can not use a period/dot in the announcements, because of this format. If
+# you'd like to give a link to the website, use the variable <website> instead (its
+# value can be configured below).
+#
+# The moving-color is self-explanatory.
+# 
+# The interval option is in seconds, and determines how long different announcements
+# will be shown.
+announcements:
+  'Welcome to the ChoiceCraft Network!': '&a&l'
+  'Check out our website at <website>': '&b&l'
+website: "ChoiceCraft.net"
+interval: 15
+moving-color: '&e&l'

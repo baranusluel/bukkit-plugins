@@ -1,0 +1,21 @@
+# MyItems 2.0 Config
+
+items:
+    demo:
+        material: DIAMOND_SWORD
+        data-id: 5
+        damage: 100
+        enchantments:
+            DAMAGE_ALL: 5
+        single-use: false
+        global: false
+        displayname: "&cTalking Sword"
+        lore: "&3This is a|&3demo item for|&aMyItems"
+        as-console: false
+        events:
+            leftclickblockevent:
+                command: me tried to kill a block
+                cancel-event: true
+            damageentityevent:
+                command: me attacked with a talking sword
+                cancel-event: false

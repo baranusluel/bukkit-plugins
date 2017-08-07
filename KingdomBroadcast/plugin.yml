@@ -1,0 +1,13 @@
+name: KingdomBroadcast
+main: com.barancode.mc.kingdombroadcast.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+
+commands:
+   kingdombroadcast:
+      description: Broadcast
+      permission: kingdom.broadcast
+permissions:
+    kingdom.broadcast:
+        default: op

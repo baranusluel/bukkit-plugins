@@ -1,0 +1,6 @@
+name: TNTDodge
+main: com.barancode.mc.tntdodge.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+load: STARTUP

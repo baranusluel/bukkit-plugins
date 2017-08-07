@@ -1,0 +1,13 @@
+name: Wands
+main: com.barancode.wands.Main
+version: 1.0
+author: BaranCODE
+website: http://barancode.com
+
+commands:
+   wand:
+      usage: /wand
+   eyeoftime:
+      usage: /eyeoftime
+   wandearth:
+      usage: /wandearth

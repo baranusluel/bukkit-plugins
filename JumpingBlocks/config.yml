@@ -1,0 +1,17 @@
+# The delay between the spawning of blocks at a jumping block spawn location.
+# Written in ticks (20 ticks = 1 second)
+delay: 10
+
+# The minimum and maximum values for the vertical / launching speed of the blocks.
+# If the values aren't the same, a random value between the two will be picked each time.
+vertical-speed:
+    min: 0.8
+    max: 1.2
+
+# The minimum and maximum values for the horizontal speed (similar to vertical speed option).
+# This can be used to give the blocks some randomness and have them launch in different directions.
+# Negative values are accepted.
+# If min and max are both 0, the blocks will launch directly upwards.
+horizontal-speed:
+    min: -0.2
+    max: 0.2

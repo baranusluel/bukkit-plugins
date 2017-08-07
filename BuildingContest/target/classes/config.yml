@@ -1,0 +1,24 @@
+# BuildingContest Configuration File
+
+# Should the plugin log it (write it in a file) when a
+# submission gets deleted
+deletionlog: true
+
+# Place the topic of the current contest here
+topic: "None"
+
+# Contest status here: (0 stands for no contest, 1 for contest available
+# and 2 for contest being reviewed)
+# Important: DO NOT set the status to 0 here. If you want to end
+# the contest, use the command "/contestset status 0", OR delete
+# this config file and do "/contestreload"
+status: 0
+
+# If you wish to use MySQL instead of the default SQLite,
+# use the options below.
+mysql:
+  enabled: false
+  host: "127.0.0.1"
+  username: "mcuser"
+  password: "1234"
+  database: "mcdatabase"

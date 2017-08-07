@@ -1,0 +1,69 @@
+name: DDG-Survival
+main: com.barancode.mc.survival.Main
+version: 1.0
+author: BaranCODE
+website: http://mc.barancode.com
+load: STARTUP
+loadbefore: [SurvivalTokens]
+
+commands:
+   sethome:
+      usage: /sethome
+   home:
+      usage: /home
+   tpa:
+      usage: /tpa <player>
+   tpaaccept:
+      usage: /tpaaccept
+      aliases: [tpaccept]
+   tpdeny:
+      usage: /tpdeny
+   chunks:
+      usage: /chunks
+   chunk:
+      usage: /chunk <claim | info | declaim | setowner>
+   setpoints:
+      usage: /setpoints <player> <points>
+   setpower:
+      usage: /setpower <player> <power>
+   points:
+      usage: /points [player]
+   power:
+      usage: /power [player]
+   broadcast:
+      usage: /broadcast <message>
+   fly:
+      usage: /fly
+   chunkban:
+      usage: /chunkban <player>
+   chunkunban:
+      usage: /chunkunban <player>
+   chunkmute:
+      usage: /chunkmute <player>
+   chunkunmute:
+      usage: /chunkunmute <player>
+   friend:
+      usage: /friend <add | remove> <player>
+   vote:
+      usage: /vote <up | down>
+   setbook:
+      usage: /setbook
+   togglearrow:
+      usage: /togglearrow
+   setspawn:
+      usage: /setspawn
+permissions:
+    survival.fly:
+        default: op
+    survival.admin:
+        default: op
+    survival.nether:
+        default: op
+    survival.doublejump:
+        default: op
+    survival.broadcast:
+        default: op
+    survival.keepitems:
+        default: op
+    survival.max:
+        default: op

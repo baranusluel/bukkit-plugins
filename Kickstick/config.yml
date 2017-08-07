@@ -1,0 +1,13 @@
+# Kickstick v1.4 Config
+# ====== Help ======
+# kickedmessage is the message the person that got kicked sees.
+# kickermessage is the message the person that kicks sees.
+# In the kicking messages, use KICKER and KICKED for the names
+# of the players. In the banning messages, use BANNER and BANNED.
+# You can use color codes inside the messages.
+
+kickedmessage: KICKER kicked you from the server with a kickstick
+kickermessage: You kicked KICKED from the server with a kickstick
+
+bannedmessage: BANNER banned you from the server with a banstick
+bannermessage: You banned BANNED from the server with a banstick
