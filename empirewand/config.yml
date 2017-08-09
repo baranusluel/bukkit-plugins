@@ -1,7 +1,0 @@
-SelectMessage: '&eNew spell selected, %spellname%!'
-EnderEggStartMessage: '&eTry to sneak and you will fly!'
-EnderEggTwiceMessage: '&eYou cant ride two endereggs at the same time.'
-Wands:
-    latest: 0
-Bloodmagic:
-    latest: 0

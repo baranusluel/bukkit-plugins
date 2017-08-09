@@ -1,9 +1,0 @@
-name: EmpireWand
-main: me.empirewand.Start
-version: 2.0.2
-author: Steven
-commands:
-    empirewand:
-        usage: /<command>
-    ew:
-        usage: /<command>

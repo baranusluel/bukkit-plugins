@@ -1,9 +1,0 @@
-main: me.s4ndal.hubjump.HubJump
-version: 1.2
-name: HubJump
-commands:
-    hjreload:
-        description: Reload Config
-        usage: /hjreload
-        permission: hubjump.admin
-
