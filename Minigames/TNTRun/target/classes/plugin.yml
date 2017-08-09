@@ -1,6 +1,0 @@
-name: TNTRun
-main: main.java.com.barancode.mc.tntrun.Main
-version: 1.0
-author: BaranCODE
-website: http://mc.barancode.com
-load: STARTUP
